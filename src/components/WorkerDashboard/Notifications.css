@@ -1,0 +1,97 @@
+.notifications-container {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .notifications-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .no-notifications {
+    color: #6c757d;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .notifications-list {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .notification-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s;
+  }
+  
+  .notification-item:last-child {
+    border-bottom: none;
+  }
+  
+  .notification-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .notification-content {
+    flex: 1;
+  }
+  
+  .notification-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .notification-type {
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 12px;
+    text-transform: capitalize;
+  }
+  
+  .notification-type.alert {
+    background: #fff3cd;
+    color: #856404;
+  }
+  
+  .notification-type.info {
+    background: #cce5ff;
+    color: #004085;
+  }
+  
+  .notification-type.success {
+    background: #d4edda;
+    color: #155724;
+  }
+  
+  .notification-time {
+    font-size: 12px;
+    color: #6c757d;
+  }
+  
+  .notification-message {
+    margin: 5px 0 0;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .dismiss-button {
+    background: none;
+    border: none;
+    color: #6c757d;
+    font-size: 20px;
+    padding: 0 5px;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .dismiss-button:hover {
+    color: #dc3545;
+  }

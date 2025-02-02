@@ -1,0 +1,26 @@
+/* src/components/InterDepartmentalCoordination/InterDepartmentalCoordination.css */
+
+.inter-departmental-coordination {
+    padding: 2rem;
+    background: #f8f9fa;
+  }
+  
+  .project-timeline {
+    display: grid;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+  
+  .task-item {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .resource-sharing {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+  }

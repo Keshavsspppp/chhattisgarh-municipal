@@ -1,0 +1,54 @@
+{
+    "users": [
+      {
+        "id": "U001",
+        "email": "john.doe@example.com",
+        "password": "user123",
+        "fullName": "John Doe",
+        "mobile": "9876543210",
+        "role": "citizen",
+        "address": "123 Main Street, Raipur",
+        "registrationDate": "2024-01-15"
+      },
+      {
+        "id": "U002",
+        "email": "priya.sharma@example.com",
+        "password": "user123",
+        "fullName": "Priya Sharma",
+        "mobile": "9876543211",
+        "role": "citizen",
+        "address": "456 Park Road, Bilaspur",
+        "registrationDate": "2024-02-01"
+      },
+      {
+        "id": "U003",
+        "email": "admin@municipality.com",
+        "password": "admin123",
+        "fullName": "Admin User",
+        "mobile": "9876543212",
+        "role": "admin",
+        "address": "Municipal Corporation Office, Raipur",
+        "registrationDate": "2023-12-01"
+      },
+      {
+        "id": "U004",
+        "email": "amit.verma@example.com",
+        "password": "user123",
+        "fullName": "Amit Verma",
+        "mobile": "9876543213",
+        "role": "citizen",
+        "address": "789 Lake View, Durg",
+        "registrationDate": "2024-02-15"
+      },
+      {
+        "id": "U005",
+        "email": "sunita.patel@example.com",
+        "password": "user123",
+        "fullName": "Sunita Patel",
+        "mobile": "9876543214",
+        "role": "citizen",
+        "address": "321 River Road, Bhilai",
+        "registrationDate": "2024-03-01"
+      }
+    ]
+  }

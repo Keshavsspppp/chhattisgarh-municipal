@@ -1,0 +1,34 @@
+/* src/components/Announcement/AnnouncementPage.css */
+.announcement-page {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.announcement-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.announcement-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease;
+}
+
+.announcement-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-title {
+    font-size: 1.5rem;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.announcement-content {
+    font-size: 1rem;
+    color: #495057;
+}

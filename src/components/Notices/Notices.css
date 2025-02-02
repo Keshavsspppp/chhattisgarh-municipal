@@ -1,0 +1,149 @@
+.notices-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 80px auto 0;
+  min-height: calc(100vh - 80px);
+}
+
+.notices-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.notices-header h1 {
+  color: #1a237e;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.notices-header p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.notices-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.search-bar {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 0.8rem 1rem 0.8rem 2.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+}
+
+.filter-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.filter-group select {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  min-width: 150px;
+}
+
+.notices-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.notice-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid transparent;
+}
+
+.tax-border { border-left-color: #dc3545; }
+.utilities-border { border-left-color: #ffc107; }
+.development-border { border-left-color: #28a745; }
+
+.notice-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.notice-category {
+  background: #f8f9fa;
+  padding: 0.3rem 0.8rem;
+  border-radius: 16px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.notice-date {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.notice-card h3 {
+  color: #1a237e;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.notice-card p {
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #1a237e;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .notices-page {
+    padding: 1rem;
+  }
+
+  .notices-header h1 {
+    font-size: 2rem;
+  }
+
+  .notices-filters {
+    flex-direction: column;
+  }
+
+  .filter-group {
+    flex-direction: column;
+  }
+
+  .search-bar {
+    min-width: 100%;
+  }
+}

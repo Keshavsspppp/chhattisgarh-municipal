@@ -1,0 +1,40 @@
+{
+    "workers": [
+      {
+        "id": "W001",
+        "email": "worker1@municipality.com",
+        "password": "@Keshav1707",
+        "name": "Rajesh Kumar",
+        "role": "sanitation",
+        "department": "Cleanliness",
+        "mobile": "9876543210"
+      },
+      {
+        "id": "W002",
+        "email": "worker2@municipality.com",
+        "password": "worker123",
+        "name": "Priya Singh",
+        "role": "maintenance",
+        "department": "Infrastructure",
+        "mobile": "9876543211"
+      },
+      {
+        "id": "W003",
+        "email": "worker3@municipality.com",
+        "password": "worker123",
+        "name": "Amit Verma",
+        "role": "electrician",
+        "department": "Electrical",
+        "mobile": "9876543212"
+      },
+      {
+        "id": "W004",
+        "email": "worker4@municipality.com",
+        "password": "worker123",
+        "name": "Sunita Devi",
+        "role": "supervisor",
+        "department": "Administration",
+        "mobile": "9876543213"
+      }
+    ]
+  }

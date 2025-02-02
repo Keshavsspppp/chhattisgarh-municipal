@@ -1,0 +1,234 @@
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin-top: 80px;
+  }
+  
+  .auth-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .auth-card h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  .auth-subtitle {
+    color: #666;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form-group label {
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #ff6b6b;
+  }
+  
+  .form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -0.5rem;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .forgot-password {
+    color: #ff6b6b;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .auth-button {
+    background: #ff6b6b;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+  }
+  
+  .auth-button:hover {
+    background: #ff5252;
+  }
+  
+  .auth-redirect {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #666;
+  }
+  
+  .auth-redirect a {
+    color: #ff6b6b;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .auth-redirect a:hover {
+    text-decoration: underline;
+  }
+  
+  .terms-checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-top: -0.5rem;
+  }
+  
+  .terms-checkbox label {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  .terms-checkbox a {
+    color: #ff6b6b;
+    text-decoration: none;
+  }
+  
+  .terms-checkbox a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 480px) {
+    .auth-container {
+      padding: 1rem;
+    }
+  
+    .auth-card {
+      padding: 1.5rem;
+    }
+  
+    .auth-card h2 {
+      font-size: 1.75rem;
+    }
+  
+    .form-footer {
+      flex-direction: column;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+  
+    .login-type-selector {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    
+    .type-button {
+      width: 100%;
+    }
+  }
+  
+  .error {
+    border-color: #ff4d4f !important;
+  }
+  
+  .error-message {
+    color: #ff4d4f;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+  }
+  
+  .form-group input.error:focus {
+    box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2);
+  }
+  
+  .terms-checkbox {
+    margin-bottom: 1rem;
+  }
+  
+  .terms-checkbox .error-message {
+    display: block;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+  }
+  
+  /* Password strength indicator styles if you want to add them later */
+  .password-strength {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .strength-weak { color: #ff4d4f; }
+  .strength-medium { color: #faad14; }
+  .strength-strong { color: #52c41a; }
+  
+  .login-type-selector {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    background: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  .type-button {
+    flex: 1;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: transparent;
+    color: #666;
+  }
+  
+  .type-button.active {
+    background: white;
+    color: #ff6b6b;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .type-button:hover:not(.active) {
+    background: rgba(255, 107, 107, 0.1);
+  } 

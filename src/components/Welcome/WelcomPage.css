@@ -1,0 +1,28 @@
+/* src/components/Welcome/WelcomePage.css */
+.welcome-page {
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome-page h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.welcome-page p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.welcome-page button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.welcome-page button:hover {
+    background-color: #0056b3;
+}
